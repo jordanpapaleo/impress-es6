@@ -61,11 +61,7 @@ export default [
     id: 'title',
     className: 'step',
     attributes: {
-      x: 0,
-      y: 0,
-      z: 0,
-      scale: 4,
-      rotate: 0
+      scale: 4
     },
     get content () {
       return `
@@ -81,7 +77,6 @@ export default [
     attributes: {
       x: 850,
       y: 3000,
-      z: 0,
       scale: 5,
       rotate: 90
     },
@@ -97,7 +92,6 @@ export default [
     attributes: {
       x: 3500,
       y: 2100,
-      z: 0,
       scale: 6,
       rotate: 180
     },
@@ -114,7 +108,6 @@ export default [
       x: 2825,
       y: 2325,
       z: -3000,
-      scale: 1,
       rotate: 300
     },
     get content () {
@@ -145,7 +138,6 @@ export default [
     attributes: {
       x: 8000,
       y: 1500,
-      z: 0,
       scale: 8,
       rotate: -60
     },
@@ -161,7 +153,6 @@ export default [
     attributes: {
       x: 6300,
       y: 2000,
-      z: 0,
       scale: 4,
       rotate: 20
     },
